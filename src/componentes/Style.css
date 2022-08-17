@@ -1,0 +1,39 @@
+.card-principal{
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.col{
+    width: 25%;
+}
+
+.footer{
+    width:100%;
+    height:50px;
+    margin-top:50px;
+}
+
+.barra{
+    padding-left: 20px;
+}
+
+.card-uno{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(219, 211, 211);
+}
+ 
+@media only screen and (min-width: 1000px)  {  
+    .menu{
+      position: absolute;
+      left: 75%;
+    } 
+}  
+
+@media only screen and (max-width: 1000px) and (min-width: 280px)  {  
+    .col{
+        width: 100%;
+    }  
+}  
